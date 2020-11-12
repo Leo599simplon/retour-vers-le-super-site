@@ -38,6 +38,23 @@ section.main {
     margin-top: -9rem;
 }
 
+.card {
+    border: none !important;
+}
+
+div.card:nth-child(1) {
+    /* border-top-left-radius: .25rem !important; */
+    border-top-right-radius: 0 !important;
+}
+
+div.card:nth-child(2) {
+    border-radius: none !important;
+}
+
+div.card:nth-child(3) {
+    border-top-left-radius: 0 !important;
+}
+
 @media screen and (max-width: 770px) {
     section.main {
     height: 560px;
@@ -58,8 +75,12 @@ section.main {
     .jumbo-box {
         margin-top: -4rem;
     }
-    
+
     .card-box {
         margin-top: 0;
+    }
+
+    .card-body {
+        text-align: center;
     }
 }
