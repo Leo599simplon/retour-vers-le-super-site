@@ -1,0 +1,127 @@
+/* Code Olivier*/
+#illustration {
+    background: url(img/presentation.svg) no-repeat center; 
+    background-size: cover;
+    height: 400px;
+    width: 400px
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-service {
+    height: 200px;
+}
+
+/*Code Léo*/
+.logos
+{
+    max-width: 50%;
+    max-height: 50%; 
+}
+
+.blocLogos 
+{
+    max-width: 80%;
+}
+
+.map
+{
+    overflow: hidden;
+}
+
+/*Code Antoine*/
+section.header {
+    height: 600px;
+    background: linear-gradient(transparent,rgba(0, 0, 0, 1)), url('img/seaside-371229_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    width: 50%;
+}
+
+.card-box {
+    margin-top: -7rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+    z-index: 1;
+}
+
+section.presentation {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1)), url('img/city-925223_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+section.footer {
+    background: linear-gradient(to right, #000000, #434343);
+}
+
+@media screen and (max-width: 1030px) {
+    section.header {
+        background-size: auto;
+        background-position: top;
+    }
+
+    .jumbotron {
+        width: 75%;
+    }
+
+    .card-box {
+        margin-top: -5rem;
+    }
+    
+    section.presentation {
+        background-size: auto;
+        background-position: top;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    section.header {
+        height: 540px;
+        background-position: right;
+    }
+
+    .test {
+        color: white !important;
+    }
+    
+    .jumbotron {
+        width: 85%;
+    }
+
+    .card-box {
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    h1.display-4 {
+        font-size: 2.5rem;
+    }
+
+    p.lead {
+        font-size: medium;
+    }
+
+    section.presentation {
+        background-position: right;
+    }
+
+    .presentation-text {
+        margin-left: 0;
+    }
+}
