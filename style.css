@@ -26,6 +26,18 @@ body {
 
 /* code Leo */
 
+.logos
+{
+    width: 75px;
+    height: 75px;
+}
+
+.bordureBouton
+{
+    width: 200px;
+    height: 55px;
+    background-color: orange;
+}
 
 
 /* code Antoine */

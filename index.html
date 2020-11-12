@@ -208,17 +208,20 @@
     <!------------------------------------------------------------->
 
     <!-------------------------Contact-------------------------->
-    <section class="container-fluid">
-        <div class="row row-cols-lg-3 row-cols-1" style="height: 311px;">
-            <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29819.790431928108!2d55.4355821!3d-20.8932491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827f05b553a0b7%3A0xf3dfd3c41fba03b4!2sSaint-Denis%2097400%2C%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1605190685664!5m2!1sfr!2sfr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
+    <section class="container-fluid" style="height: 400px;">
+        <div class="row row-cols-lg-3 row-cols-1 mx-auto">
+            <div class="col d-flex justify-content-end">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29819.790431928108!2d55.4355821!3d-20.8932491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21827f05b553a0b7%3A0xf3dfd3c41fba03b4!2sSaint-Denis%2097400%2C%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1605190685664!5m2!1sfr!2sfr" width="500" height="320" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
             </div>
-            <div class="col">
-                <h2>blablabla</h2>
-                <p>bla</p>
-                <p>bla</p>
-                <p>bla</p>
-                <div class="d-flex flex-row justify-content-start h-25 w-75">   
+            <div class="col d-flex flex-column justify-content-between">
+                <h2 class="mb-4">blablabla</h2>
+                <div class="d-flex justify-content-start flex-column mb-4"> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.illo totam</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo totam lorem ipsum</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                </div>
+               
+                <div class="d-flex justify-content-between w-75 align-items-end">   
 
                     <img src="img/facebook.svg" class="logos" alt="">
                     <img src="img/instagram.svg" class="logos" alt="">
@@ -228,11 +231,20 @@
              
 
             </div>
-            <div class="col">
-                <h2>Titre</h2>
-                <p>paragraphe</p>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre mail ici">
-                <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="col d-flex flex-column justify-content-between">
+                <h2 class="mb-4">Titre</h2>
+                <div class="d-flex justify-content-start flex-column mb-5"> 
+                <p style="padding-top: 12px;">paragraphe</p>
+                
+                <input type="email" class="form-control" style="height: 70px; width: 550px;" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre mail ici">
+            </div>
+            <div style="padding-bottom: 20px;">
+                <div class="bordureBouton rounded d-flex">
+                    <button type="submit" class="btn btn-dark w-50 h-50 mx-auto my-auto d-flex justify-content-center pt-0">Envoyer</button>
+                </div>
+            </div>
+            
+                
             </div>
         </div>
     </section>
