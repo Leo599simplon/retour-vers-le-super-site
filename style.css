@@ -10,6 +10,13 @@ body {
 
 /* code Olivier */
 
+#presentation {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1)), url('img/city-925223_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 /* code Leo */
 
