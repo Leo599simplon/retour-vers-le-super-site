@@ -72,4 +72,8 @@ div.card:nth-child(3) {
     .card-box {
         margin-top: 0;
     }
+
+    .card-body {
+        text-align: center;
+    }
 }
