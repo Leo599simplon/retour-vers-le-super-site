@@ -110,4 +110,8 @@ section.footer {
     .text-card {
         font-size: 13px;
     }
+
+    .navbar {
+        background-color: rgba(107, 107, 112, 0.459) !important;
+    }
 }
