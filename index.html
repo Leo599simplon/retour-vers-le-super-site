@@ -36,9 +36,10 @@
 
 <body>
     <!-------------------------Main-------------------------->
-    <section class="container-fluid p-0" style="height: 600px; background-color: aqua;">
-        <nav class="navbar navbar-expand-md navbar-light bg-transparent">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <section class="container-fluid p-0 main" style="background-color: aqua;">
+        <nav class="navbar navbar-expand-md navbar-light bg-transparent mx-5">
+            <a class="navbar-brand" href="#"><img src="img/Bootstrap.svg" alt="logo" class="img-fluid rounded-circle"
+                    style="height: 4rem;"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,36 +53,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                <p class="my-2 my-md-0">Téléphone : +262 6 92 01 23 45</p>
             </div>
         </nav>
-
-        <div class="jumbotron-fluid w-50 mx-auto" style="background-color: white;">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
-                to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <div class="d-flex h-100 align-items-center jumbo-box">
+            <div class="jumbotron-fluid w-lg-50 mx-auto text-center">
+                <h1 class="display-4">Lorem ipsum dolor sit amet.</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusantium?</p>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
         </div>
 
 
@@ -90,38 +78,47 @@
 
     <!-------------------------Activités-------------------------->
     <section class="container-fluid">
-        <div class="row row-cols-md-3 row-cols-1">
+        <div class="row row-cols-md-3 row-cols-1 mx-5 card-box">
             <!--card 01-->
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="img/mixer-4197733_640.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
 
             <!--card 02-->
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="img/music-4880827_640.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
 
             <!--card 03-->
             <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="img/record-player-1851576_640.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
 
         <!--text presentation-->
-        <div>
-
+        <div class="text-center">
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusantium?</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
         </div>
     </section>
     <!------------------------------------------------------------->

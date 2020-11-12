@@ -15,3 +15,28 @@ body {
 
 
 /* code Antoine */
+section.main {
+    height: 600px;
+}
+
+.jumbo-box {
+    margin-top: -7.5rem;
+}
+
+.card-box {
+    margin-top: -9rem;
+}
+
+@media screen and (max-width: 770px) {
+    section.main {
+    height: 560px;
+    }
+
+    .jumbo-box {
+        margin-top: -5.5rem;
+    }
+
+    .card-box {
+        margin-top: -5rem;
+    }
+}
