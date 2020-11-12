@@ -61,6 +61,10 @@ div.card:nth-child(3) {
     border-top-left-radius: 0 !important;
 }
 
+.author-box {
+    margin-right: 7rem;
+}
+
 section.footer {
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
