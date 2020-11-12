@@ -17,6 +17,10 @@ body {
 /* code Antoine */
 section.main {
     height: 600px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 1)), url('img/seaside-371229_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
 }
 
 .jumbo-box {
@@ -30,6 +34,8 @@ section.main {
 @media screen and (max-width: 770px) {
     section.main {
     height: 560px;
+    background-position: right;
+    background-size: auto;
     }
 
     .jumbo-box {
@@ -38,5 +44,15 @@ section.main {
 
     .card-box {
         margin-top: -5rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .jumbo-box {
+        margin-top: -4rem;
+    }
+    
+    .card-box {
+        margin-top: 0;
     }
 }
