@@ -18,6 +18,12 @@ body {
     background-repeat: no-repeat;
 }
 
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 /* code Leo */
 
 
@@ -56,6 +62,17 @@ div.card:nth-child(3) {
     border-top-left-radius: 0 !important;
 }
 
+.author-box {
+    margin-right: 7rem;
+}
+
+section.footer {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 @media screen and (max-width: 770px) {
     section.main {
     height: 560px;
@@ -69,6 +86,11 @@ div.card:nth-child(3) {
 
     .card-box {
         margin-top: -5rem;
+    }
+
+    #presentation {
+        background-position: right;
+        background-size: auto;
     }
 }
 
