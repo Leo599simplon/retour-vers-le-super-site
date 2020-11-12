@@ -69,6 +69,11 @@ div.card:nth-child(3) {
     .card-box {
         margin-top: -5rem;
     }
+
+    #presentation {
+        background-position: right;
+        background-size: auto;
+    }
 }
 
 @media screen and (max-width: 380px) {
