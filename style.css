@@ -24,6 +24,7 @@ body {
     border-radius: 50%;
 }
 
+
 /* code Leo */
 
 .logos
@@ -117,5 +118,13 @@ section.footer {
 
     .card-body {
         text-align: center;
+    }
+
+    .text-card {
+        font-size: 13px;
+    }
+
+    .navbar {
+        background-color: rgba(107, 107, 112, 0.459) !important;
     }
 }
