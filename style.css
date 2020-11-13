@@ -24,6 +24,10 @@ body {
     border-radius: 50%;
 }
 
+.ul-service {
+    list-style-type: square;
+}
+
 
 /* code Leo */
 
