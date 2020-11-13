@@ -66,6 +66,12 @@ section.main {
     border: none !important;
 }
 
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+}
+
 div.card:nth-child(1) {
     /* border-top-left-radius: .25rem !important; */
     border-top-right-radius: 0 !important;
