@@ -116,6 +116,15 @@ section.footer {
         background-position: right;
         background-size: auto;
     }
+
+    iframe {
+        width: 224px;
+    }
+
+    .logos {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media screen and (max-width: 380px) {
