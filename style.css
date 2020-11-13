@@ -147,4 +147,8 @@ section.footer {
     .navbar {
         background-color: rgba(107, 107, 112, 0.459) !important;
     }
+
+    iframe {
+        width: 100%;
+    }
 }
