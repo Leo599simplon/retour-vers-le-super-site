@@ -119,11 +119,12 @@ section.footer {
 
     iframe {
         width: 224px;
+        height: 520px;
     }
 
     .logos {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
 }
 
