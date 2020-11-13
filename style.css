@@ -119,12 +119,26 @@ section.footer {
 
     iframe {
         width: 224px;
-        height: 520px;
+        height: 150px;
     }
 
     .logos {
         width: 25px;
         height: 25px;
+    }
+
+    #exampleInputEmail {
+        font-size: small;
+    }
+
+    .bordureBouton {
+        height: 90%;
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .textCoordonnées {
+        font-size: 1px;
     }
 }
 
