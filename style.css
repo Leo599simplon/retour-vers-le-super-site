@@ -131,15 +131,23 @@ section.footer {
         font-size: small;
     }
 
-    .bordureBouton {
-        height: 90%;
-        width: 50%;
-        font-size: 10px;
+    /* .bordureBouton {
+        margin-top: 2em;
+        height: 80%;
+        width: 40%;
+    } */
+
+    /* div.bordureBouton:nth-child(1) > button:nth-child(1) {
+        font-size: 6px;
     }
 
-    .textCoordonnées {
-        font-size: 1px;
+    .texteCoordonnees {
+        font-size: 6px;
     }
+
+    .newsletterText {
+        font-size: 6px;
+    } */
 }
 
 @media screen and (max-width: 380px) {
@@ -164,7 +172,10 @@ section.footer {
     }
 
     iframe {
-        width: 100%;
+        padding-left: 2.5em;
+        padding-top: 2.5em;
+        width: 90%;
+        height: 300px;
     }
 
     .logos {
@@ -174,5 +185,16 @@ section.footer {
 
     .reseauLogo {
         justify-content: center;
+    }
+
+    .bordureBouton {
+        margin-top: 1em;
+        width: 40%;
+        height: 100%;
+    }
+    
+    div.bordureBouton:nth-child(1) > button:nth-child(1) {
+        font-size: small;
+        padding-bottom: 20px;
     }
 }
