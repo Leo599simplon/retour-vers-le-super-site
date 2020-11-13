@@ -150,6 +150,27 @@ section.footer {
     } */
 }
 
+@media screen and (min-width: 750px) and (max-width: 770px) {
+    
+    body > section.container-fluid.bg-dark.text-white.align-items-center > div > div.col.d-flex.flex-column.newsletterText > div.pt-lg-5.d-flex.align-items-center.align-items-md-start.flex-column.mb-5.mb-md-0 > div {
+        margin-top: 2em;
+        height: 80%;
+        width: 40%;
+    }
+
+    div.bordureBouton:nth-child(1) > button:nth-child(1) {
+        font-size: 6px;
+    }
+
+    .texteCoordonnees {
+        font-size: 6px;
+    }
+
+    .newsletterText {
+        font-size: 6px;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .jumbo-box {
         margin-top: -4rem;
