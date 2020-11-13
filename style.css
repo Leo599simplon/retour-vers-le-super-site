@@ -83,6 +83,10 @@ div.card:nth-child(3) {
     margin-right: 7rem;
 }
 
+#exampleInputEmail1 {
+    height: 55px;
+}
+
 section.footer {
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
@@ -124,12 +128,17 @@ section.footer {
 
     iframe {
         height: 190px;
-        width: 230px;
+        width: 205px;
     }
 
     .logos {
         height: 25px;
         width: 25px;
+    }
+
+    #exampleInputEmail1 {
+        height: 32px;
+        font-size: small;
     }
 
     div.bordureBouton:nth-child(1) {
