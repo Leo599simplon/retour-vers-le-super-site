@@ -128,14 +128,14 @@ section.footer {
         width: 25px;
     }
 
-    div.bordureBouton:nth-child(1) {
+    .bordureBouton {
         width: 108px;
         height: 32px;
     }
 
     div.bordureBouton:nth-child(1) > button:nth-child(1) {
         font-size: small;
-        align-items: stretch;
+        align-items: center;
     }
 }
 
