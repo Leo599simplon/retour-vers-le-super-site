@@ -24,6 +24,10 @@ body {
     border-radius: 50%;
 }
 
+.li-service {
+    line-height: 30px;
+}
+
 
 /* code Leo */
 
@@ -136,6 +140,11 @@ section.footer {
     div.bordureBouton:nth-child(1) > button:nth-child(1) {
         font-size: small;
         align-items: stretch;
+    }
+
+    .li-service {
+        line-height: 20px;
+        font-size: 15px;
     }
 }
 
