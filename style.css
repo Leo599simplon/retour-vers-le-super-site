@@ -112,6 +112,31 @@ section.footer {
         background-position: right;
         background-size: auto;
     }
+
+    section.contact {
+        height: 366px;
+        font-size: small;
+    }
+
+    iframe {
+        height: 190px;
+        width: 230px;
+    }
+
+    .logos {
+        height: 25px;
+        width: 25px;
+    }
+
+    .bordureBouton {
+        width: 108px;
+        height: 32px;
+    }
+
+    div.bordureBouton:nth-child(1) > button:nth-child(1) {
+        font-size: small;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 380px) {
